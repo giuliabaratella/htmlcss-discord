@@ -12,6 +12,7 @@
 	--color-footer: #23272a;
 	--color-button: #7289da;
 	--color-section-background: #f6f6f6;
+    --color-section-text: #000000;
 }
 
 .container {
@@ -23,13 +24,24 @@
     border: 1px solid black;
 }
 
-ul {
+li {
     list-style: none;
+}
+
+.d-flex {
+    display: flex;
+}
+
+a {
+    text-decoration: none;
 }
 
 /* header  */
 .header-bar {
     background-color: var(--color-header);
+}
+.navbar-list-items a {
+    color: var(--color-primary);
 }
 #hero {
     background-image: url(../img/jumbo.png);
@@ -38,4 +50,35 @@ ul {
 }
 .hero-main-elements {
     max-width: 50%
+}
+
+/* main  */
+main section {
+    padding: 60px 0;
+}
+.even-section {
+    background-color: var(--color-section-background);
+}
+section img {
+    max-width: 60%;
+}
+section {
+    justify-content: space-evenly;
+}
+.section-text {
+    color: var(--color-section-text);
+}
+
+/* footer  */
+footer {
+    padding: 60px 0px;
+    background-color: var(--color-footer);
+    color: var(--color-primary);
+}
+.nav-footer {
+    color: var(--color-button);
+}
+.nav-footer a {
+    color: var(--color-primary)
+
 }
