@@ -23,7 +23,19 @@
     border: 1px solid black;
 }
 
+ul {
+    list-style: none;
+}
+
 /* header  */
 .header-bar {
     background-color: var(--color-header);
+}
+#hero {
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
+    min-height: 626px;
+}
+.hero-main-elements {
+    max-width: 50%
 }
