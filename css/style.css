@@ -6,7 +6,10 @@
     padding: 0;
     font-family: 'Noto Sans', sans-serif;
 }
-
+/* font  */
+* {
+    
+}
 body {
     font-size: 1.2em;
 }
@@ -96,6 +99,9 @@ justify-content: space-between;
 .align-center {
     align-items: center;
     align-content: center;
+}
+.flex-start {
+    justify-content: flex-start;
 }
 
 /* header  */
@@ -216,6 +222,23 @@ footer {
     font-size: 1.5em;
 }
 
+.social i {
+    color: var(--color-primary);
+    padding-right: 20px;
+}
+.language-social-box h3 {
+    color: var(--color-button);
+}
+
+.language-social-box h3, .language {
+    padding-bottom: 20px;
+}
+.language img {
+    max-height: 0.8em;
+}
+.language {
+    font-size: 0.8em;
+}
 .nav-footer-list-items {
     color: var(--color-button);
     font-size: 0.8em;
