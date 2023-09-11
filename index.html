@@ -9,36 +9,37 @@
 </head>
 <body>
     <header>
-        <div class="header-bar debug">
-            <div class="container debug">
+        <div class="header-bar">
+            <nav class="container d-flex space-between">
                 <img src="img/logo.svg" alt="Discord Logo">
-                <nav>
-                    <ul class="navbar-list-items">
-                        <li><a href="">Scarica</a></li>
-                        <li><a href="">Perché Discord</a></li>
-                        <li><a href="">Nitro</a></li>
-                        <li><a href="">Sicurezza</a></li>
-                        <li><a href="">Assistenza</a></li>
-                    </ul>
-                </nav>
-                <a class="login button">Accedi</a>
-            </div>
+                <ul class="navbar-list-items d-flex space-between align-center">
+                    <li><a href="">Scarica</a></li>
+                    <li><a href="">Perché Discord</a></li>
+                    <li><a href="">Nitro</a></li>
+                    <li><a href="">Sicurezza</a></li>
+                    <li><a href="">Assistenza</a></li>
+                </ul>
+                <a href="" class="login button white-background">Accedi</a>
+            </nav>
 
         </div>
 
         <div  id="hero">
-            <div class="container debug">
-                <div class="hero-main-elements">
+            <div class="container d-flex align-center just-center">
+                <div class="hero-content">
                     <h1>Il tuo posto per parlare</h1>
                     <p>
                         Che tu faccia parte di un club scolastico, gruppo di gamer, comunità artistica mondiale, o semplicemente di un piccolo gruppo di amici che vuole passare il tempo assieme, Discord rende più facile chiacchierare ogni giorno e ritrovarsi più spesso.
                     </p>
-                    <a href="">Scarica per Mac</a>
-                    <a href="">Apri Discord nel tuo browser</a>
+                    <div class="call-to-action-buttons">
+                        <a class="button white-background" href="">Scarica per Mac</a>
+                        <a class="button dark-background" href="">Apri Discord nel tuo browser</a>
+                    </div>
                 </div>
             </div>
         </div>
     </header>
+
     <main>
         <section class="odd-section">
             <div class="container d-flex">
@@ -50,7 +51,7 @@
             </div>
         </section>
         <section class="even-section">
-            <div class="container d-flex">
+            <div class="container d-flex  reverse">
                 <img src="img/item1.svg" alt="Discord chat sample">
                 <div class="section-text">
                     <h2>Titolo</h2>
@@ -78,13 +79,14 @@
         </section>
 
     </main>
+
     <footer>
-        <section class="container d-flex">
+        <section class="nav-footer container d-flex">
             <div>
                 <h3>Il tuo posto per parlare</h3>
             </div>
 
-            <ul class="nav-footer">
+            <ul class="nav-footer-list-items">
                 <li>Prodotto</li>
                 <li><a href="">Scarica</a></li>
                 <li></li>
@@ -92,7 +94,7 @@
                 <li></li>
                 <li></li>
             </ul>
-            <ul class="nav-footer">
+            <ul class="nav-footer-list-items">
                 <li>Compagnia</li>
                 <li><a href="">Chi siamo</a></li>
                 <li></li>
@@ -100,7 +102,7 @@
                 <li></li>
                 <li></li>
             </ul>
-            <ul class="nav-footer">
+            <ul class="nav-footer-list-items">
                 <li>Risorse</li>
                 <li><a href="">Scarica</a></li>
                 <li></li>
@@ -108,7 +110,7 @@
                 <li></li>
                 <li></li>
             </ul>
-            <ul class="nav-footer">
+            <ul class="nav-footer-list-items">
                 <li>Norme</li>
                 <li><a href="">Scarica</a></li>
                 <li></li>
@@ -117,7 +119,10 @@
                 <li></li>
             </ul>
         </section>
-        <div></div>
+        <div class="sign-in-section container d-flex space-between">
+            <img src="img/logo.svg" alt="Discord Logo">
+            <a class="button white-background" href="">Registrati</a>
+        </div>
     </footer>
 </body>
 </html>

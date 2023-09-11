@@ -28,28 +28,85 @@ li {
     list-style: none;
 }
 
+a {
+    text-decoration: none;
+}
+
+.navbar-list-items a:hover, .nav-footer-list-items a:hover {
+    text-decoration: underline;
+}
+
+/* Bottoni  */
+.button {
+    border-radius: 20px;
+    padding: 10px 15px;
+}
+
+.white-background {
+    background-color: var(--color-primary);
+    color: var(--color-section-text);
+}
+
+.dark-background {
+    background-color: var(--color-footer);
+    color: var(--color-primary);
+}
+.puprle-background {
+    background-color: var(--color-button);
+    color: var(--color-primary);
+}
+
+/* flex  */
+
 .d-flex {
     display: flex;
 }
-
-a {
-    text-decoration: none;
+.reverse {
+    flex-direction: row-reverse;
+}
+.space-between {
+justify-content: space-between;
+}
+.just-center {
+    justify-content: center;
+}
+.align-center {
+    align-items: center;
+    align-content: center;
 }
 
 /* header  */
 .header-bar {
     background-color: var(--color-header);
+    padding: 20px 0px;
 }
 .navbar-list-items a {
     color: var(--color-primary);
+    padding: 10px;
 }
+
 #hero {
     background-image: url(../img/jumbo.png);
     background-size: cover;
     min-height: 626px;
 }
-.hero-main-elements {
-    max-width: 50%
+
+#hero .container {
+    min-height: 626px;
+}
+
+.hero-content {
+    max-width: 50%;
+    text-align: center;
+}
+
+.hero-content h1, .hero-content p {
+    color: var(--color-primary);
+    padding-bottom: 10px;
+}
+
+.call-to-action-buttons {
+    padding: 10px 0px;
 }
 
 /* main  */
@@ -71,14 +128,22 @@ section {
 
 /* footer  */
 footer {
-    padding: 60px 0px;
     background-color: var(--color-footer);
+    padding: 60px 0px;
     color: var(--color-primary);
 }
 .nav-footer {
+    padding-bottom: 20px;
+    border-bottom: 1px solid var(--color-button);
+}
+.nav-footer-list-items {
     color: var(--color-button);
 }
-.nav-footer a {
+.nav-footer-list-items a {
     color: var(--color-primary)
 
+}
+
+.sign-in-section {
+    padding-top: 10px;
 }
