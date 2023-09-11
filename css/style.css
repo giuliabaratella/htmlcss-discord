@@ -9,7 +9,10 @@
 
 body {
     font-size: 1.2em;
-    line-height: 2em;
+}
+
+p {
+    line-height: 1.7em;
 }
 
 :root {
@@ -43,7 +46,7 @@ a {
 }
 
 /* Bottoni  */
-.button {
+.bigbutton {
     border-radius: 30px;
     padding: 10px 15px;
 }
@@ -57,9 +60,15 @@ a {
     background-color: var(--color-footer);
     color: var(--color-primary);
 }
-.puprle-background {
+.purple-background {
     background-color: var(--color-button);
     color: var(--color-primary);
+}
+
+.smallbutton {
+    border-radius: 30px;
+    font-size: 0.8em;
+    padding: 5px 15px;
 }
 
 /* flex  */
@@ -67,12 +76,20 @@ a {
 .d-flex {
     display: flex;
 }
+.column {
+    flex-direction: column;
+}
 .reverse {
     flex-direction: row-reverse;
 }
 .space-between {
 justify-content: space-between;
 }
+
+.space-evenly {
+    justify-content: space-evenly;
+}
+
 .just-center {
     justify-content: center;
 }
@@ -94,6 +111,7 @@ justify-content: space-between;
 #hero {
     background-image: url(../img/jumbo.png);
     background-size: cover;
+    background-position: center;
     min-height: 626px;
 }
 
@@ -108,16 +126,14 @@ justify-content: space-between;
 
 .hero-content h1, .hero-content p {
     color: var(--color-primary);
-    padding-bottom: 10px;
+}
+
+.hero-content h1, .hero-content p, .call-to-action-buttons {
+    padding-bottom: 30px;
 }
 
 .hero-content h1 {
     font-size: 2.5em;
-    padding-bottom: 40px;
-}
-
-.call-to-action-buttons {
-    padding: 10px 0px;
 }
 
 .call-to-action-buttons a {
@@ -125,40 +141,92 @@ justify-content: space-between;
 }
 
 /* main  */
+
 main section {
     padding: 60px 0;
 }
-.even-section {
+
+.grey-section {
     background-color: var(--color-section-background);
 }
+
 section img {
     max-width: 60%;
 }
+
+.big-image-section {
+    max-width: 1200px;
+    text-align: center;
+}
+
+#big-image {
+    width: 100%;
+}
+
 section {
     justify-content: space-evenly;
 }
+
 .section-text {
     color: var(--color-section-text);
+    padding: 0 30px;
+}
+
+.section-text h2{
+    font-size: 2.5em;
+    padding-bottom: 30px;
+}
+
+.side-p-section-text {
+    max-width: 35%;
+}
+
+.stars-question {
+    background-image: url(../img/stars.svg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 50px;
+    text-align: center;
+}
+
+.stars-question span {
+    font-size: 1.5em;
+    font-weight: bold;
 }
 
 /* footer  */
+
 footer {
     background-color: var(--color-footer);
     padding: 60px 0px;
     color: var(--color-primary);
 }
+
 .nav-footer {
     padding-bottom: 20px;
     border-bottom: 1px solid var(--color-button);
 }
+
+.language-social-box {
+    max-width: 20%;
+}
+
+.nav-footer h3 {
+    font-size: 1.5em;
+}
+
 .nav-footer-list-items {
     color: var(--color-button);
+    font-size: 0.8em;
+    line-height: 2.5em;
 }
+
 .nav-footer-list-items a {
     color: var(--color-primary)
 
 }
 
 .sign-in-section {
-    padding-top: 10px;
+    padding-top: 20px;
 }
