@@ -1,0 +1,29 @@
+/* main utilities */
+
+ * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+	--color-header: #2a5ee8;
+	--color-primary: #ffffff;
+	--color-footer: #23272a;
+	--color-button: #7289da;
+	--color-section-background: #f6f6f6;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.debug {
+    border: 1px solid black;
+}
+
+/* header  */
+.header-bar {
+    background-color: var(--color-header);
+}
