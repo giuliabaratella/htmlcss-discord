@@ -4,6 +4,12 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+body {
+    font-size: 1.2em;
+    line-height: 2em;
 }
 
 :root {
@@ -38,7 +44,7 @@ a {
 
 /* Bottoni  */
 .button {
-    border-radius: 20px;
+    border-radius: 30px;
     padding: 10px 15px;
 }
 
@@ -82,7 +88,7 @@ justify-content: space-between;
 }
 .navbar-list-items a {
     color: var(--color-primary);
-    padding: 10px;
+    padding: 10px 20px;
 }
 
 #hero {
@@ -96,7 +102,7 @@ justify-content: space-between;
 }
 
 .hero-content {
-    max-width: 50%;
+    max-width: 70%;
     text-align: center;
 }
 
@@ -105,8 +111,17 @@ justify-content: space-between;
     padding-bottom: 10px;
 }
 
+.hero-content h1 {
+    font-size: 2.5em;
+    padding-bottom: 40px;
+}
+
 .call-to-action-buttons {
     padding: 10px 0px;
+}
+
+.call-to-action-buttons a {
+    margin: 0 10px;
 }
 
 /* main  */
