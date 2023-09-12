@@ -78,7 +78,9 @@ a {
 
 .d-flex {
     display: flex;
+    flex-wrap: wrap;
 }
+
 .column {
     flex-direction: column;
 }
@@ -152,7 +154,7 @@ main section {
     padding: 60px 0;
 }
 
-.grey-section {
+.even-section {
     background-color: var(--color-section-background);
 }
 
