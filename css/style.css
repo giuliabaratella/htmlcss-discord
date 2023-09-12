@@ -290,3 +290,40 @@ footer {
 .sign-in-section {
     padding-top: 20px;
 }
+
+
+/* Download page  */
+
+#download .header-bar {
+    background-color: var(--color-footer);
+}
+
+/* Hero  */
+#download #hero {
+    background-color: var(--color-footer);
+    background-image: none;
+}
+.download-hero-img {
+    max-width: 50%;
+}
+.download-hero-img img {
+    padding: 0 50px;
+    max-width: 100%;
+}
+.download-hero-text {
+    max-width: 50%;
+    color: var(--color-primary);
+}
+.download-hero-text h1 {
+    font-weight: 900;
+    font-size: 4em;
+    line-height: 1em;
+}
+.download-hero-text p {
+    font-size: 0.9em;
+    padding :30px 0;
+}
+.download-hero-text span {
+    padding:0 10px;
+    font-size: 0.8em;
+}
